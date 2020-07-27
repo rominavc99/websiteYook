@@ -16,36 +16,33 @@
     <body >
 
         <header class="fixed-top">
-            <div class="container">
-              <nav class="navbar  navbar-expand-lg">
-                <a class="navbar-brand" href="#">Yoók</a>
+            <div >
+              <nav  class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">YOÓK</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-                <div class="collapse navbar-collapse" >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#inicio"> Inicio </a>
+                      <a class="nav-link" href="#"> Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#quinesSomos"> Quiénes Somos</a>
+                      <a class="nav-link" href="#">Quiénes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#comoFunciona">Cómo Funciona</a>
-                      </li>
-
-                    <li class="nav-item">
-                      <a class="nav-link" href="#beneficios">Beneficios</a>
+                      <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cómo Funciona
+                      </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#contacto">Contacto</a>
+                      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Beneficios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SUSCRIBIRSE</a>
-                      </li>
+                      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Suscribirse</a>
+                    </li>
                   </ul>
-                
                 </div>
               </nav>
             </div>
@@ -335,109 +332,7 @@
 
       
 
-          <section id="beneficios" class="Beneficios section-6 py-5">
-
-            <h3 style=" font-size: 40px; font-weight:bold; ">Beneficios</h3>
-
-            <div class="wrapper">
-              <div class="card">
-                <input type="checkbox" id="card1" class="more" aria-hidden="true">
-                <div class="content">
-                  <div class="front" style="background-image: url('https://images.unsplash.com/photo-1529408686214-b48b8532f72c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=986e2dee5c1b488d877ad7ba1afaf2ec&auto=format&fit=crop&w=1350&q=80')">
-                    <div class="inner">
-                      <h2>TANÍICHI</h2>
-                      <label for="card1" class="button" aria-hidden="true">
-                        Detalles
-                      </label>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="inner">
-                      <div class="description">
-                        <p>Tienda que ofrece un sistema de compra por puntos acumulables a precio de mayoreo.</p>
-                      </div>
-                      <div class="location">TANÍICHI</div>
-                      <label for="card1" class="button return" aria-hidden="true">
-                        <i class="fas fa-arrow-left"></i>
-                      </label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <input type="checkbox" id="card2" class="more">
-                <div class="content">
-                  <div class="front" style="background-image: url('https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c02fb96f9cfc16d3649835b75d1b2033&auto=format&fit=crop&w=1350&q=80')">
-                    <div class="inner">
-                      <h2>Consultoría</h2>
-                     
-                      <label for="card2" class="button" aria-hidden="true">
-                        Detalles
-                      </label>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="inner">
-                      <div class="description">
-                        <br>
-                        <p>
-                          <br>Accede al asesoría de profesionales en los temas con los que tienes problemas. Cada mes tendrás derecho a realizar una consula. Tenemos especialistan en:  </p><br>
-                        <ul>
-                          <li>Derecho</li>
-                          <li>Nutrición</li>
-                          <li>Una cosa</li>
-                          <li>Otra</li>
-                        </ul>
-                      </div>
-                      <div class="location">Otro Servicio</div>
-                      <label for="card2" class="button return" aria-hidden="true">
-                        <i class="fas fa-arrow-left"></i>
-                      </label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <input type="checkbox" id="card3" class="more">
-                <div class="content">
-                  <div class="front" style="background-image: url('https://images.unsplash.com/photo-1529595354331-201ad3ae5e71?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6114533e2d0c1c81534fe13611dbfd76&auto=format&fit=crop&w=658&q=80')">
-                    <div class="inner">
-                      <h2>Otro Servicio</h2>
-                
-                      <label for="card3" class="button" aria-hidden="true">
-                        Detalles
-                      </label>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="inner">
-               
-                      <div class="description">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa libero
-                          totam nostrum consequatur autem quae provident quos alias fugit maxime nisi labore,
-                          temporibus tempore illo natus voluptates aliquam ipsum officia quasi placeat aut
-                          facilis
-                          laudantium nam!</p>
-                        <p>Quam, iusto.Neque ratione ut deserunt unde dicta nesciunt,
-                          repudiandae
-                          aspernatur explicabo numquam! Tenetur!</p>
-                      </div>
-                      <div class="location">Cracow, Poland</div>
-                     
-                      <label for="card3" class="button return" aria-hidden="true">
-                        <i class="fas fa-arrow-left"></i>
-                      </label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              
-            </div>  
-
-          </section>
-          
-
+         
 
         
           <footer id="contacto" class="py-5">
@@ -450,11 +345,11 @@
           <!-- Optional JavaScript -->
           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
     
-    <script src="javascript.js"></script>
+          <script src="javascript.js"></script>
     
         </body>
     
